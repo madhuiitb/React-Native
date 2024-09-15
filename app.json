@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "RNCourse",
-    "slug": "RNCourse",
+    "slug": "guess-number",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +22,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3479619d-af1c-413c-86e1-3a5e4c00d61a"
+      }
+    },
+    "owner": "madhucs",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3479619d-af1c-413c-86e1-3a5e4c00d61a"
     }
   }
 }
